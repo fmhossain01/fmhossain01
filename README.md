@@ -134,13 +134,13 @@ Clean, fast and mobile-friendly site presenting my services and results.
 
 <div align="center">
 
-<!-- Replace YOUR_USERNAME everywhere below -->
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=false&bg_color=0A0A0A&title_color=D4AF37&icon_color=F5D77A&text_color=E8D9A8&border_color=D4AF37" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&bg_color=0A0A0A&title_color=D4AF37&text_color=E8D9A8&border_color=D4AF37" alt="Top languages"/>
+<!-- Replace fmhossain01 everywhere below -->
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=fmhossain01&show_icons=true&hide_border=false&bg_color=0A0A0A&title_color=D4AF37&icon_color=F5D77A&text_color=E8D9A8&border_color=D4AF37" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fmhossain01&layout=compact&bg_color=0A0A0A&title_color=D4AF37&text_color=E8D9A8&border_color=D4AF37" alt="Top languages"/>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snake-dark.svg" alt="Contribution snake animation" width="100%"/>
+<img src="https://raw.githubusercontent.com/fmhossain01/fmhossain01/output/github-snake-dark.svg" alt="Contribution snake animation" width="100%"/>
 
 </div>
 
@@ -160,7 +160,7 @@ const reachOut = () => ({
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=D4AF37&style=for-the-badge" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=fmhossain01&label=Profile%20Views&color=D4AF37&style=for-the-badge" alt="Profile views"/>
 
 <br/><br/>
 
