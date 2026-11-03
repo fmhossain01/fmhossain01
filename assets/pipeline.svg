@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Growth pipeline: Research, Design, Build, Rank, Convert">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0A0A"/>
+      <stop offset="1" stop-color="#17130A"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="896" height="196" rx="14" fill="url(#bg)" stroke="#D4AF37" stroke-opacity="0.3"/>
+
+  <!-- connectors -->
+  <g stroke="#D4AF37" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="5 5">
+    <line x1="175" y1="100" x2="200" y2="100"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.5s" repeatCount="indefinite"/></line>
+    <line x1="350" y1="100" x2="375" y2="100"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.5s" repeatCount="indefinite"/></line>
+    <line x1="525" y1="100" x2="550" y2="100"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.5s" repeatCount="indefinite"/></line>
+    <line x1="700" y1="100" x2="725" y2="100"><animate attributeName="stroke-dashoffset" values="0;-20" dur="1.5s" repeatCount="indefinite"/></line>
+  </g>
+
+  <!-- stage boxes -->
+  <g fill="#0F0D07" stroke="#D4AF37" stroke-width="1.5">
+    <rect x="25" y="65" width="150" height="70" rx="10"><animate attributeName="stroke-opacity" values="1;0.3;0.3;1" keyTimes="0;0.15;0.9;1" dur="7s" begin="0s" repeatCount="indefinite"/></rect>
+    <rect x="200" y="65" width="150" height="70" rx="10"><animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.15;0.3;1" dur="7s" begin="0s" repeatCount="indefinite"/></rect>
+    <rect x="375" y="65" width="150" height="70" rx="10"><animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.15;0.3;1" dur="7s" begin="1.4s" repeatCount="indefinite"/></rect>
+    <rect x="550" y="65" width="150" height="70" rx="10"><animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.15;0.3;1" dur="7s" begin="2.8s" repeatCount="indefinite"/></rect>
+    <rect x="725" y="65" width="150" height="70" rx="10"><animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.15;0.3;1" dur="7s" begin="4.2s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- stage numbers -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#8A7A4A" text-anchor="middle">
+    <text x="100" y="58">01</text>
+    <text x="275" y="58">02</text>
+    <text x="450" y="58">03</text>
+    <text x="625" y="58">04</text>
+    <text x="800" y="58">05</text>
+  </g>
+
+  <!-- stage titles -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#F5D77A" text-anchor="middle" letter-spacing="1">
+    <text x="100" y="95">Research</text>
+    <text x="275" y="95">Design</text>
+    <text x="450" y="95">Build</text>
+    <text x="625" y="95">Rank</text>
+    <text x="800" y="95">Convert</text>
+  </g>
+
+  <!-- stage subtitles -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#E8D9A8" text-anchor="middle">
+    <text x="100" y="116">Keywords · Audience</text>
+    <text x="275" y="116">Figma · UI/UX</text>
+    <text x="450" y="116">WordPress · Fast</text>
+    <text x="625" y="116">SEO · GBP</text>
+    <text x="800" y="116">Meta Ads · ROI</text>
+  </g>
+
+  <!-- travelling dot -->
+  <circle r="5" cy="100" fill="#FFE9A6" filter="url(#glow)">
+    <animateMotion path="M25 0 L875 0" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="450" y="175" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" letter-spacing="3" fill="#8A7A4A">ONE PROJECT · FIVE STOPS · MEASURABLE RESULTS</text>
+</svg>

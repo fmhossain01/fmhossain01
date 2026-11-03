@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="Rakib Hossain - Digital Marketer and Web Designer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0A0A"/>
+      <stop offset="1" stop-color="#17130A"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B8902B"/>
+      <stop offset="0.5" stop-color="#FFE9A6"/>
+      <stop offset="1" stop-color="#B8902B"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0; 1 0; -1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="typeclip">
+      <rect x="150" y="172" height="26" width="0">
+        <animate attributeName="width" values="0;600;600;0;0" keyTimes="0;0.45;0.85;0.95;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- frame -->
+  <rect x="10" y="10" width="880" height="300" rx="16" fill="url(#bg)" stroke="#D4AF37" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.35;1;0.35" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <line x1="10" y1="44" x2="890" y2="44" stroke="#D4AF37" stroke-opacity="0.25"/>
+  <circle cx="36" cy="28" r="5" fill="#D4AF37"/>
+  <circle cx="58" cy="28" r="5" fill="#B8902B"/>
+  <circle cx="80" cy="28" r="5" fill="#7A6420"/>
+  <text x="450" y="32" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#8A7A4A">~/rakib-hossain — zsh</text>
+
+  <!-- floating gold particles -->
+  <g fill="#F5D77A">
+    <circle cx="60" cy="290" r="2"><animate attributeName="cy" values="290;60" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="290" r="1.5"><animate attributeName="cy" values="290;70" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="290" r="2"><animate attributeName="cy" values="290;60" dur="7s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="7s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="290" r="1.5"><animate attributeName="cy" values="290;65" dur="9s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="9s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="290" r="2"><animate attributeName="cy" values="290;60" dur="11s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="11s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="290" r="1.5"><animate attributeName="cy" values="290;70" dur="8s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="8s" begin="3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- name -->
+  <text x="450" y="118" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="7" fill="url(#gold)" filter="url(#glow)" opacity="0">
+    RAKIB HOSSAIN
+    <animate attributeName="opacity" from="0" to="1" dur="1.4s" fill="freeze"/>
+  </text>
+  <text x="450" y="150" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="4" fill="#E8D9A8" opacity="0">
+    DIGITAL MARKETER  ·  SEO  ·  META ADS  ·  WEB DESIGNER
+    <animate attributeName="opacity" from="0" to="0.95" dur="1.6s" begin="0.6s" fill="freeze"/>
+  </text>
+
+  <!-- typing line -->
+  <g clip-path="url(#typeclip)">
+    <text x="150" y="191" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#D4AF37">&gt; From strategy to screen, I grow your business online.</text>
+  </g>
+  <rect x="150" y="174" width="9" height="20" fill="#F5D77A">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="150;750;750;150;150" keyTimes="0;0.45;0.85;0.95;1" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- skill nodes -->
+  <line x1="130" y1="250" x2="770" y2="250" stroke="#D4AF37" stroke-opacity="0.4" stroke-dasharray="6 6">
+    <animate attributeName="stroke-dashoffset" values="0;-24" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <g fill="#0A0A0A" stroke="#D4AF37" stroke-width="2">
+    <circle cx="130" cy="250" r="9"><animate attributeName="r" values="9;12;9" dur="5s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="290" cy="250" r="9"><animate attributeName="r" values="9;12;9" dur="5s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="450" cy="250" r="9"><animate attributeName="r" values="9;12;9" dur="5s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="610" cy="250" r="9"><animate attributeName="r" values="9;12;9" dur="5s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="770" cy="250" r="9"><animate attributeName="r" values="9;12;9" dur="5s" begin="4s" repeatCount="indefinite"/></circle>
+  </g>
+  <circle r="4" fill="#FFE9A6" filter="url(#glow)">
+    <animateMotion path="M130 250 L770 250" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#E8D9A8" text-anchor="middle" letter-spacing="1">
+    <text x="130" y="282">SEO</text>
+    <text x="290" y="282">Local SEO</text>
+    <text x="450" y="282">Meta Ads</text>
+    <text x="610" y="282">WordPress</text>
+    <text x="770" y="282">Web Design</text>
+  </g>
+</svg>
